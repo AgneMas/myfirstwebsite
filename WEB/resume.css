@@ -1,0 +1,205 @@
+body {
+  background-image: url('img/IMG_8537.jpeg');
+  background-size: 2500px;
+  background-repeat: no-repeat;
+}
+* {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+.top{
+  text-align: center;
+  padding: -50px;
+  font-size: 40px;
+}
+a:link {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+a:visited {
+  color: whitesmoke;
+}
+
+a:hover {
+ color: rgb(103, 228, 46);
+}
+
+.navbar { 
+  text-align: center; 
+  float: none;
+  position: absolute;
+  top: 8%;
+  left: 40%;
+  transform: translate(-30%, -30%);
+  font-size: 30px;
+}  
+
+.buttonbutton{
+  background-color: Transparent;
+  background-repeat:no-repeat;
+}
+.dropdown-menu{
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;  
+  outline: none; 
+}
+#dropdownMenuButton{
+  border: none;
+  cursor:pointer;
+  overflow: hidden; 
+  outline: none; 
+}
+#dropdownMenuButton:hover{
+  color: lawngreen;
+}
+
+.dropdown-item:hover{
+  background-color: transparent;
+  color: lawngreen;
+}
+
+  .about{
+    text-align: center;
+    margin-top: 10% ;
+  }
+
+  .info {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em
+  }
+  .website {
+      text-align: center;
+      padding: 90px;
+  }
+
+  .exhibitions{
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .center {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    
+  }
+    
+.fa {
+  padding: 17px;
+  font-size: 25px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.box {
+    position:relative;
+    left:30px;
+    top: -80px ;
+}
+
+div.psl{
+  width: 300;
+  height: 300;
+}
+
+@media screen and (max-width: 600px) and (min-width: 300px) {
+  div.navbar{
+    display: none;  
+  }
+
+  .about{
+    margin-top: 30px;
+  }
+
+  .info {
+    width: 20em;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+  
+  div.top{
+    font-size: 30px;
+    margin-top: 25px;
+  }
+
+  div.box{
+    display:none;
+  }
+
+  .tekstas{
+    font-size: 20px;
+    margin-top: 100px;
+  }
+
+  .dropdown-menu{
+    background-color: rgb(102, 149, 250);
+  }
+}
+
+@media screen and (max-width: 1050px) and (min-width: 600px) {
+  div.top{
+    font-size: 30px;
+    margin-top: 25px;
+  }
+  div.box{
+    display:none;
+  }
+
+  .dropdown-menu{
+    background-color: rgb(102, 149, 250);
+  }
+  .navbar{
+    display:none;
+  }
+} 
+  @media screen and (max-width: 2500px) and (min-width: 1050px) {
+    div.naujas{
+    display: none;
+  }
+  .navbar { 
+    text-align: center; 
+    float: none;
+    position: center;
+    margin-top: 25px;
+    left: 40%;
+    font-size: 23px;
+  }
+  .top{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+  }  
+  .tekstas{
+    font-size: 20px;
+    margin-top: 100px;
+  }
+
+  .info {
+    width: 40em;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+  
+  .about{
+    margin-top: 30px;
+  }
+  .psl {
+    width: 42em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+  
+  }
+
+}
